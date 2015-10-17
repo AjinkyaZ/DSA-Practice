@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ste",
+				"stemmed_text"
+			],
+			[
+				"toar",
+				"to_article_object	function"
+			],
+			[
+				"art",
+				"article_body	statement"
+			],
+			[
+				"para",
+				"para_list	statement"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"cnnt",
+				"cnn_top"
+			],
+			[
+				"len",
+				"len_src_feed	statement"
+			],
+			[
+				"article_t",
+				"article_text"
+			],
+			[
+				"reu",
+				"reuters_top	statement"
+			],
+			[
+				"file",
+				"file_name	statement"
+			],
+			[
+				"da",
+				"date_now	statement"
+			],
+			[
+				"date",
+				"date_now	statement"
+			],
+			[
+				"parse",
+				"parsed_article	statement"
+			],
+			[
+				"cnn",
+				"cnn_paper	statement"
+			],
+			[
+				"article",
+				"article_num	statement"
+			],
+			[
+				"arti",
+				"article_num	statement"
+			],
+			[
+				"fee",
+				"feed_link	param"
+			],
+			[
+				"feed",
+				"feedparser	module"
+			],
+			[
+				"le",
+				"len_cnn_top	statement"
+			],
+			[
+				"new",
+				"new_frontier	statement"
+			],
+			[
+				"fro",
+				"frontier	statement"
+			],
+			[
+				"graph",
+				"graph_search	function"
+			],
+			[
+				"fr",
+				"frontier	statement"
+			],
+			[
+				"gr",
+				"graph_search	function"
+			],
+			[
+				"fin",
+				"find_shortest_path	function"
+			],
+			[
+				"runtime",
+				"runtime2	statement"
+			],
+			[
+				"runtim",
+				"RuntimeError	class"
+			],
+			[
+				"la",
+				"labels_test	statement"
+			],
+			[
+				"fea",
+				"features_test	statement"
+			],
+			[
+				"labe",
+				"labels_train	statement"
+			],
+			[
+				"data",
+				"dataset	statement"
+			],
+			[
+				"pre",
+				"predict"
+			],
+			[
+				"n_",
+				"n_jobs"
+			],
+			[
+				"row",
+				"row_count	statement"
+			],
+			[
+				"csv",
+				"csv_file_object	statement"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"ba",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nAnaconda\n--------\n\n  Changes in 1.4.13\n  =================\n  \n  ## Changes:\n      - When the cursor is in a test case class definition line, command \"run test under the cursor\" runs all tests in this test case\n      - Removed key bindings that conlfict with vintage mode\n  \n  For more detailed information about those changes run git log v1.4.12..v1.4.13 on git repository\n",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "makelargestnum.py",
+			"settings":
+			{
+				"buffer_size": 369,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 447.0,
+		"last_filter": "lint ",
+		"selected_items":
+		[
+			[
+				"lint ",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"linto",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"lint",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsyn pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"setsynhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsyn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ajinkya/dsapractice"
+	],
+	"file_history":
+	[
+		"/home/ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.html",
+		"/home/ajinkya/Projects/FYProject/db_test.py",
+		"/home/ajinkya/Projects/FYProject/feeds_test.py",
+		"/media/ajinkya/Ajinkya/Projects/FYProject/fyproject-meteor/fyproject-meteor.js",
+		"/home/ajinkya/Projects/FYProject/feed_intf.py",
+		"/home/ajinkya/Projects/FYProject/test.html",
+		"/home/ajinkya/Projects/FYProject/load_feeds.py",
+		"/home/ajinkya/playground/mergesort.py",
+		"/home/ajinkya/Projects/FYProject/test_db.py",
+		"/home/ajinkya/Projects/FYProject/test_feeds.py",
+		"/A/Projects/FYProject/fyproject-meteor/fyproject-meteor.js",
+		"/A/Projects/localmarket/README.md",
+		"/C/Users/Ajinkya/AppData/Local/Temp/Temp1_raldenhoven-downloadify-bb2f9d6.zip/raldenhoven-downloadify-bb2f9d6/README.md",
+		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-14.json",
+		"/A/Projects/FYProject/fyproject-meteor/.meteor/local/db/meteor.ns",
+		"/A/GitHub/gow/ReadMe.md",
+		"/C/Users/Ajinkya/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/A/OpenCC/Grand Theft Auto V/scripts/addins/szabopersist.lua",
+		"/C/Users/Ajinkya/Documents/Rockstar Games/CarSaves/szabopersist",
+		"/A/OpenCC/Grand Theft Auto V/scripts/szabopersist.lua",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage.dll",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/los_santos_airport_storage/layout.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/ginger_st_storage/layout.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_3/vehicle_004.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_1/vehicle_000.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_2/vehicle_000.xml",
+		"/A/OpenCC/Grand Theft Auto V/scripts/SinglePlayerGarage/eclipse_towers/Floor_3/vehicle_003.xml",
+		"/A/OpenCC/Grand Theft Auto V/szabopersist.lua",
+		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-13.json",
+		"/A/Projects/FYProject/load_feeds.py",
+		"/A/Projects/FYProject/hangman.py",
+		"/C/Users/Ajinkya/Downloads/missionaries_and_cannibals.py",
+		"/C/Users/Ajinkya/Downloads/missionaries_and_cannibals (1).py",
+		"/A/Projects/FYProject/bfs.py",
+		"/A/Projects/FYProject/daily_feeds/feed_file_2015-08-09.json",
+		"/A/Projects/FYProject/test_newspaper.py",
+		"/A/Projects/aima stuff/romania_search.py",
+		"/A/Projects/aima stuff/binary_search.py",
+		"/A/Projects/MNIST/temp.py",
+		"/C/Users/Ajinkya/test.py",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/s2h2/footer.php",
+		"/A/Projects/MNIST/makesubmission.py",
+		"/A/Projects/MNIST/test_loading.py",
+		"/A/Projects/MNIST/test_ttt.py",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/s2h2/header.php",
+		"/A/Data/enwiki-20150602-pages-articles.xml",
+		"/A/Projects/MNIST/ttt.py",
+		"/A/Projects/MNIST/data/train.csv",
+		"/A/Pictures/missionaries_and_cannibals.py",
+		"/A/Projects/MNIST/neuralnetpred.py",
+		"/A/GitHub/scikit-learn/doc/modules/naive_bayes.rst",
+		"/A/Projects/MNIST/summary_tool.py",
+		"/A/Projects/MNIST/start.py",
+		"/G/Anaconda/Projects/test/test.csv",
+		"/G/Anaconda/Projects/MNIST data/logloss.py",
+		"/G/Anaconda/Projects/MNIST data/crossvalidate.py",
+		"/G/Anaconda/Projects/MNIST data/MakeSubmission.py",
+		"/G/Anaconda/Projects/test/alt.csv",
+		"/G/Anaconda/Projects/test/train.csv",
+		"/G/Anaconda/Projects/test/rf.py",
+		"/G/Anaconda/Projects/MNIST data/runlog.log",
+		"/C/Users/Ajinkya/Downloads/report.csv",
+		"/C/Users/Ajinkya/Downloads/docword.nytimes.txt",
+		"/G/Anaconda/Projects/MNIST data/Data/7a.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/train.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/2a.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/3.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/9.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/7.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/6.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/2.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/4.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/8.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/5.csv",
+		"/G/Anaconda/Projects/MNIST data/Data/1.csv",
+		"/G/Anaconda/Examples/MNIST data/result.py",
+		"/G/Anaconda/Examples/MNIST data/MakeSubmission.py",
+		"/G/Anaconda/Examples/MNIST data/test.py",
+		"/G/Anaconda/Examples/MNIST data/Data/test.csv",
+		"/G/Anaconda/Examples/MNIST data/Data/submission.csv",
+		"/G/Projects/MNIST data/start.py",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/cebolla.in/footer.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/cebolla.in/js/main.js",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/cebolla.in/css/main.css",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/cebolla.in/header.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/cebolla.in/index.php",
+		"/C/Users/Ajinkya/Downloads/train.csv",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/cebolla.in/js/jquery.min.js",
+		"/C/Users/Ajinkya/Documents/PassportApplicationF.xml",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/binaries/conf_files/httpd.conf",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/juicesite/footer.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/juicesite/header.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/juicesite/index.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/juicesite/css/main.css",
+		"/C/Users/Ajinkya/AppData/Roaming/Rainmeter/Rainmeter.ini"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"255",
+			"lua",
+			" <GarageSlot>",
+			"<GarageSlot>",
+			"}",
+			"\"}{\"",
+			"i]",
+			"reuters_top",
+			"body",
+			"cnn",
+			"cnn_world",
+			"cnn_top",
+			"len_cnn_top",
+			"first_article",
+			"article_num",
+			"article_body",
+			">>> ",
+			"b",
+			"feedparser.parse",
+			"cnn_top",
+			"tech",
+			"skiprows = 1",
+			"header = 0",
+			"skiprows = 1,",
+			"	},",
+			"[\"#\"]	],",
+			"[ \"u",
+			"r\"",
+			"hashtags\": [\"\"]",
+			">>>",
+			"%",
+			".\n",
+			"../input",
+			"probas",
+			"_proba",
+			"digit8",
+			"x",
+			"255",
+			"0",
+			"1",
+			"x",
+			"255",
+			"0",
+			"x",
+			"255",
+			"0",
+			"submission3",
+			"3",
+			"target",
+			"result_csv",
+			"submission",
+			"data2",
+			"data1",
+			"1",
+			"row_count_test",
+			"row_count = sum(1 for row in data)\nprint row_count",
+			"result",
+			"target",
+			"csv_file_object",
+			"Data",
+			"top,",
+			"\"",
+			"top",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"255",
+			"0",
+			"x",
+			"255",
+			"0",
+			"x",
+			"255",
+			"0",
+			"x",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "makelargestnum.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dsapractice.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"test.py",
+				"test.py"
+			],
+			[
+				"tes",
+				"Data\\test.csv"
+			],
+			[
+				"main",
+				"css\\main.css"
+			],
+			[
+				"footer",
+				"footer.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1013.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dsapractice/dsapractice.sublime-project"
+			]
+		],
+		"width": 1831.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

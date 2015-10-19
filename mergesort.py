@@ -33,6 +33,7 @@ def msort(A):
                 left.pop(0)
     return result
 
-a = [1,7,2,4,6,9,10,23]
+#a = [1,7,2,4,6,9,10,23]
+a = input("Enter array\n")
 print "Array --> ", a
 print "Sorted --> \n", msort(a)

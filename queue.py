@@ -17,4 +17,10 @@ class Queue():
     def size(self):
         return len(self.items)
 
+    def contains(self, item):
+        if item in self.items:
+            return True
+        else:
+            return False
+
     

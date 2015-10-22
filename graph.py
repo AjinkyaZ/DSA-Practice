@@ -1,6 +1,8 @@
 class Vertex:
     def __init__(self,key):
         self.id = key
+        self.parent = None
+        self.successors = {}
         self.connectedTo = {}
 
     def addNeighbor(self,nbr,weight=0):
@@ -17,6 +19,9 @@ class Vertex:
 
     def getWeight(self,nbr):
         return self.connectedTo[nbr]
+
+    def getParent(self):
+    	return self.parent
 
 
 class Graph:
@@ -51,3 +56,16 @@ class Graph:
 
     def __iter__(self):
         return iter(self.vertList.values())
+
+
+g = Graph()
+g = Graph()
+g.addVertex('A')
+g.addVertex('B')
+g.addEdge('A', 'B', 10)
+g.addVertex('C')
+g.addEdge('B','C', 15)
+g.addVertex('D')
+g.addEdge('C','D', 20)
+for v in g:
+	print v

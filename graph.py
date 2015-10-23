@@ -1,11 +1,12 @@
 class Vertex:
-    def __init__(self,key):
+
+    def __init__(self, key):
         self.id = key
         self.parent = None
         self.successors = {}
         self.connectedTo = {}
 
-    def addNeighbor(self,nbr,weight=0):
+    def addNeighbor(self, nbr, weight=0):
         self.connectedTo[nbr] = weight
 
     def __str__(self):
@@ -17,34 +18,35 @@ class Vertex:
     def getId(self):
         return self.id
 
-    def getWeight(self,nbr):
+    def getWeight(self, nbr):
         return self.connectedTo[nbr]
 
     def getParent(self):
-    	return self.parent
+        return self.parent
 
 
 class Graph:
+
     def __init__(self):
         self.vertList = {}
         self.numVertices = 0
 
-    def addVertex(self,key):
+    def addVertex(self, key):
         self.numVertices = self.numVertices + 1
         newVertex = Vertex(key)
         self.vertList[key] = newVertex
         return newVertex
 
-    def getVertex(self,n):
+    def getVertex(self, n):
         if n in self.vertList:
             return self.vertList[n]
         else:
             return None
 
-    def __contains__(self,n):
+    def __contains__(self, n):
         return n in self.vertList
 
-    def addEdge(self,f,t,cost=0):
+    def addEdge(self, f, t, cost=0):
         if f not in self.vertList:
             nv = self.addVertex(f)
         if t not in self.vertList:
@@ -64,8 +66,8 @@ g.addVertex('A')
 g.addVertex('B')
 g.addEdge('A', 'B', 10)
 g.addVertex('C')
-g.addEdge('B','C', 15)
+g.addEdge('B', 'C', 15)
 g.addVertex('D')
-g.addEdge('C','D', 20)
+g.addEdge('C', 'D', 20)
 for v in g:
-	print v
+    print v

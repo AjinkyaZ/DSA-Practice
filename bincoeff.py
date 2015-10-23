@@ -11,8 +11,10 @@ def bin_coeff(n, m):
 
 
 MAXN = 100
-n = input("enter coeff 1 \n")
-m = input("enter coeff 2 \n")
+n = input("enter order of equation \n")
 for x in range(n+1):
+	print "order", x, ":",
 	for y in range(x+1):
-		print "[", x, ",", y, "] : ", bin_coeff(x, y)
+		#print "[", x, ",", y, "] : ", bin_coeff(x, y)
+		print bin_coeff(x, y),
+	print "\n"

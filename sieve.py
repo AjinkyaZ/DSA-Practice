@@ -8,7 +8,7 @@ def sieve_a(n):
         primes[0] = 0
         primes[1] = 0
         for i in xrange(2, (n+1)):
-            print i
+            #print i
             if primes[i] == 1:
                 j=2
                 while (i*j) <= n:

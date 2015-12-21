@@ -33,7 +33,13 @@ def msort(A):
                 left.pop(0)
     return result
 
-#a = [1,7,2,4,6,9,10,23]
-a = input("Enter array\n")
-print "Array --> ", a
-print "Sorted --> \n", msort(a)
+def main():
+    #a = [1,7,2,4,6,9,10,23]
+    a = raw_input("Enter array\n").split(' ')
+    a = [int(i) for i in a]
+    print "original array :\n ", a
+    print "sorted array :\n", msort(a)
+
+
+if __name__ == "__main__":
+    main()

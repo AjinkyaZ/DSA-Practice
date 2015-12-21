@@ -8,6 +8,13 @@ def bubble_sort(a_list):
 				a_list[j+1] = temp
 	return a_list
 
-a = input("enter list of numbers\n")
-print "sorted list\n"
-print bubble_sort(a)
+
+def main():
+    a = raw_input("enter array\n").split(' ')
+    a = [int(n) for n in a]
+    print "original array :\n", a
+    print "sorted array :\n", bubble_sort(a)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,3 +1,8 @@
+#directi problem on interviewbit
+#given sequenced points in a 2d space
+#find steps from first to last point in order
+#steps allowed in all 8 directions
+
 def makeSpace(X, Y):
     for i in xrange(m):
         print (X[i],Y[i])
@@ -53,23 +58,12 @@ def coverPoints(X,Y):
                 steps = steps + abs(dx)
                 print "to top right"
                 print steps
+        elif abs(dx)>abs(dy):
+            steps = steps + abs(dx)
+            print steps
         else:
-            if x2>x1:
-                steps = steps + abs(dx)
-                print "to right"
-                print steps
-            if x2<x1:
-                steps = steps + abs(dx)
-                print "to left"
-                print steps
-            if y2>y1:
-                steps = steps + abs(dy)
-                print "to bottom"
-                print steps
-            if y2<y1:
-                steps = steps + abs(dy)
-                print "to top"
-                print steps
+            steps = steps + abs(dy)
+            print steps
 
         
 m =  input("num of points\n")

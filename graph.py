@@ -1,40 +1,38 @@
 class Vertex:
-
     def __init__(self, key):
-        self.id = key
+        self.name = key
         self.parent = None
         self.successors = {}
         self.connectedTo = {}
 
-    def addNeighbor(self, nbr, weight=0):
-        self.connectedTo[nbr] = weight
+    def addNeighbor(self, num, weight=0):
+        self.connectedTo[num] = weight
 
     def __str__(self):
-        return str(self.id) + ' connectedTo: ' + str([x.id for x in self.connectedTo])
+        return str(self.name) + ' connectedTo: ' + str([x.name for x in self.connectedTo])
 
     def getConnections(self):
         return self.connectedTo.keys()
 
     def getId(self):
-        return self.id
+        return self.name
 
-    def getWeight(self, nbr):
-        return self.connectedTo[nbr]
+    def getWeight(self, num):
+        return self.connectedTo[num]
 
     def getParent(self):
         return self.parent
 
 
 class Graph:
-
     def __init__(self):
         self.vertList = {}
         self.numVertices = 0
 
     def addVertex(self, key):
-        self.numVertices = self.numVertices + 1
         newVertex = Vertex(key)
         self.vertList[key] = newVertex
+        self.numVertices += 1
         return newVertex
 
     def getVertex(self, n):
@@ -46,12 +44,16 @@ class Graph:
     def __contains__(self, n):
         return n in self.vertList
 
-    def addEdge(self, f, t, cost=0):
+    def addEdge(self, f, t, direction, cost=0):
         if f not in self.vertList:
             nv = self.addVertex(f)
         if t not in self.vertList:
             nv = self.addVertex(t)
         self.vertList[f].addNeighbor(self.vertList[t], cost)
+        if direction=='undirected':
+            self.vertList[t].addNeighbor(self.vertList[f], cost)
+        else:
+            direction = 'directed'
 
     def getVertices(self):
         return self.vertList.keys()
@@ -60,14 +62,17 @@ class Graph:
         return iter(self.vertList.values())
 
 
-g = Graph()
-g = Graph()
-g.addVertex('A')
-g.addVertex('B')
-g.addEdge('A', 'B', 10)
-g.addVertex('C')
-g.addEdge('B', 'C', 15)
-g.addVertex('D')
-g.addEdge('C', 'D', 20)
-for v in g:
-    print v
+def main():
+    g = Graph()
+    g.addVertex('A')
+    g.addVertex('B')
+    g.addEdge('A', 'B', 'undirected', 10)
+    g.addVertex('C')
+    g.addEdge('B', 'C', 15)
+    g.addVertex('D')
+    g.addEdge('C', 'D', 20)
+    for v in g:
+        print v
+
+if __name__ == "__main__":
+    main()

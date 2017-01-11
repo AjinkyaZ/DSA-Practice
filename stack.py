@@ -1,4 +1,5 @@
 class Stack:
+
     def __init__(self):
         self.items = []
 
@@ -13,7 +14,7 @@ class Stack:
 
     def peek(self):
         if self.isEmpty() != True:
-            return self.items[len(self.items)-1]
+            return self.items[len(self.items) - 1]
 
     def size(self):
         return len(self.items)
